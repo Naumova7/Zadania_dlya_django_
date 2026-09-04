@@ -1,0 +1,5 @@
+/* Меняем цвет основных кнопок Django Admin */
+.submit-row input,
+a.addlink {
+    background: #4CAF50 !important;
+}
