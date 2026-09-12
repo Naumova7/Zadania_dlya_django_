@@ -6,3 +6,4 @@ from .consumers import ShopConsumer
 websocket_urlpatterns = [
     re_path(r"ws/shops/$", ShopConsumer.as_asgi()),
 ]
+
